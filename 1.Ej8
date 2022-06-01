@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+  <!ELEMENT agenda (contacto*)>
+  <!ELEMENT contacto (nombre, telefonoFijo*, telefonoMovil+)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT telefonoFijo (#PCDATA)>
+  <!ELEMENT telefonoMovil (#PCDATA)>
+ ]>
+
+ <agenda>
+   <contacto>
+     <nombre>Ayuntamiento</nombre>
+     <telefonoFijo>010</telefonoFijo>
+     <telefonoMovil>7458735</telefonoMovil>
+   </contacto>
+   <contacto>
+    <nombre>Johann Sebastian Bach</nombre>
+    <telefonoFijo>911 (Estados Unidos)</telefonoFijo>
+    <telefonoMovil>21 de marzo de 1685</telefonoMovil>
+  </contacto>
+ </agenda>
